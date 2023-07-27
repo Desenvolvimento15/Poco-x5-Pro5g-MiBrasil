@@ -39,7 +39,7 @@ body {
 
 .sub-title {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 400;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -54,12 +54,24 @@ body {
   position: relative;
 }
 
-.icons-text {
-  font-size: 2.5rem;
+.icons-title {
+  font-size: 1.9rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
-  font-weight: 400;
+  font-weight: 800;
+  color: #4e7ad6;
+  margin-top: 1rem;
+}
+
+.icons-text {
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-top: 1rem;
 }
 
 .icons-tex {
@@ -69,15 +81,6 @@ body {
   position: relative;
   font-weight: 400;
   color: #7f7f7f;
-}
-
-.icons-title {
-  font-size: 1.7rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 800;
-  color: #4e7ad6;
 }
 
 .txt-preto {
@@ -114,6 +117,14 @@ body {
   justify-content: center;
   text-align: center;
   gap: 5rem;
+}
+
+.grid-poco {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 590px;
+  margin: 0 auto;
 }
 
 /***************************************************************/
@@ -191,5 +202,13 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
+  }
+
+  .grid-poco {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 285px;
+    margin: 0 auto;
   }
 }
