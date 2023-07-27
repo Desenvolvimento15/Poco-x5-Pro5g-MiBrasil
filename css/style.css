@@ -7,15 +7,6 @@
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
 
-@font-face {
-  font-family: "Xiaomi Brand";
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("https://i02.appmifile.com/i18n/fonts/Brand/Brand.woff2")
-    format("woff2");
-}
-
 body {
   font-family: "Camphor Pro", sans-serif;
 }
@@ -127,12 +118,21 @@ body {
   margin: 0 auto;
 }
 
+.grid-poco-x5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 40rem;
+  margin: 0 auto;
+  gap: 4rem;
+}
+
 /***************************************************************/
 
 @media (max-width: 920px) {
   .title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.03rem;
     font-weight: 800;
     font-family: "Camphor Pro", sans-serif;
     color: #4e7ad6;
@@ -141,7 +141,7 @@ body {
 
   .sub-title {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.001rem;
     font-weight: 400;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
@@ -213,5 +213,12 @@ body {
     gap: 1rem;
     max-width: 285px;
     margin: 0 auto;
+  }
+
+  .grid-poco-x5 {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    justify-content: center;
   }
 }
