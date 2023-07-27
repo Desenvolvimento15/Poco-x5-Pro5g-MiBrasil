@@ -55,7 +55,7 @@ body {
 }
 
 .icons-title {
-  font-size: 1.9rem;
+  font-size: 2rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -132,9 +132,10 @@ body {
 @media (max-width: 920px) {
   .title {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: 800;
     font-family: "Camphor Pro", sans-serif;
+    color: #4e7ad6;
     position: relative;
   }
 
@@ -149,16 +150,17 @@ body {
 
   .subtitle {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 800;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
   }
 
   .p-center {
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
+    padding: 20px;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
   }
@@ -169,6 +171,15 @@ body {
     font-weight: 500;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
+  }
+
+  .icons-title {
+    font-size: 1.9rem;
+    text-align: center;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    font-weight: 800;
+    margin-top: 1rem;
   }
 
   .icons-text {
@@ -186,14 +197,6 @@ body {
     position: relative;
     font-weight: 400;
     color: #7f7f7f;
-  }
-
-  .icons-title {
-    font-size: 1.2rem;
-    text-align: center;
-    font-weight: 800;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
   }
 
   .grid-xiaomi {
